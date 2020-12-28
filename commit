@@ -1,7 +1,7 @@
 #!/bin/bash
 declare -a conventional_commits
 # https://www.conventionalcommits.org/en/v1.0.0/
-conventional_commits=(fix feat refactor build chore ci docs style refactor perf test "BREAKING CHANGE!")
+conventional_commits=(fix feat refactor build chore ci docs style test "BREAKING CHANGE")
 
 if [ $# -eq 0 ]
 then
