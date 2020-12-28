@@ -5,7 +5,7 @@ conventional_commits=(fix feat refactor build chore ci docs style test "BREAKING
 
 if [ $# -eq 0 ]
 then
-  echo "Error: no message specified.. aborting commit" && exit 1
+  echo "Error: no message specified.. aborting commit :)" && exit 1
 else
   # optional
   git add .
