@@ -29,13 +29,3 @@ $ chmod +x ./commit
 ```bash
 $ ./commit "commit message here"
 ```
-
-#### Video Walkthrough
-![setup walkthrough](./public/setup.gif)
-
-<details>
-  <summary>
-    Create an alias in your bash config (optional)
-  </summary>
-  <img src="./public/alias.gif" alt="alias"/>
-</details>
