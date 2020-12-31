@@ -19,19 +19,15 @@ $ git commit -m "TYPE: this is my commit"
 ![use case](./public/use.gif)
 
 ## Setup
-Ensure  `PATH=~/bin:$PATH` is in your bash config. It's _usually_ one of the below file types.
-
-OS | file
---- | ---
-Linux | `~/.bashrc`
-OSX | `~/.bash_profile`
-
-Clone and move the `commit.sh` file to the root of your desired repo.
-
-Init to execute (first time only)
-
+- [x] [Ensure  `PATH=~/bin:$PATH` is in your bash config.](https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path)
+- [x] Move the [`commit`](https://github.com/hi-matbub/conventional-commit-helper/blob/main/commit) file to the root of your desired repo.
+- [x] [Init (first time only)](https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it)
 ```bash
-$ chmod +x ./path/to/commit.sh
+$ chmod +x ./commit
+```
+- [x] **Execute**
+```bash
+$ ./commit "commit message here"
 ```
 
 #### Video Walkthrough
